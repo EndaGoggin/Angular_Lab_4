@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>data-binding-app</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Red_star.svg" (dblclick)="imageClick()" height="42" width="42">
+<br>  
+<h2 [hidden]="imageHide">Look at the Star!</h2>
+<br>
+<button (click)="buttonPressed()">Press Me!</button>
+<h4>The Number of times the button has been pressed is : {{count}}</h4>
+<app-listcomponent></app-listcomponent>
+</body>
+</html>
